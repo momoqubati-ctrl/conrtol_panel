@@ -1,0 +1,6 @@
+{
+  "name": "منصة شبكتي - Shabakati Control Platform",
+  "description": "منصة إدارة شبكتي المخصصة لبوابة الإدارة وبوابة التاجر والمتكاملة مع قاعدة بيانات Supabase الحالية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

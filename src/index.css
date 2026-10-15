@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+    background-color: #020617;
+    color: #f8fafc;
+  }
+
+  /* Universal inputs, textareas, selects, buttons, tables RTL alignment */
+  input, select, textarea, button, form, label, table, th, td {
+    direction: rtl;
+    text-align: right;
+  }
+
+  input::placeholder, textarea::placeholder {
+    text-align: right;
+  }
+
+  /* Keep mono or ltr numbers inline when needed */
+  .dir-ltr {
+    direction: ltr;
+    display: inline-block;
+  }
+
+  .dir-rtl {
+    direction: rtl;
+  }
+}
